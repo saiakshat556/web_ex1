@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-image: url('background.jpg'); /* Add your background image path here */
+            background-image: url('background.jpg');
             background-size: cover;
             color: #0c0c0c;
             margin: 0;
@@ -19,7 +19,6 @@
             font-family: Verdana, Geneva, sans-serif;
         }
 
-        /* Alphabet from A to F */
         .alphabet {
             display: inline-block;
             margin: 5px;
@@ -54,7 +53,6 @@
             border-radius: 5px;
         }
 
-        /* Marquee for roll number */
         marquee {
             font-size: 20px;
             font-weight: bold;
@@ -62,7 +60,6 @@
             padding: 10px;
         }
 
-        /* Image alignment */
         #passport-img {
             float: right;
             width: 100px;
@@ -71,7 +68,6 @@
             margin: 10px;
         }
 
-        /* div for separate paragraphs */
         .content-div {
             display: flex;
             justify-content: space-between;
@@ -82,7 +78,7 @@
             width: 45%;
         }
 
-        /* Link animation */
+
         #scroll-link {
             position: fixed;
             bottom: 10px;
@@ -118,7 +114,7 @@
     </style>
 </head>
 <body>
-    <!-- Header with name in blue using Verdana font -->
+
     <h1>Akshat MSV</h1> <!-- Your Name -->
 
     <!-- Alphabet from A to F -->
@@ -129,12 +125,11 @@
     <div class="alphabet e">E</div>
     <div class="alphabet f">F</div>
 
-    <!-- Name formatting: bold first name, italicized middle name, underlined last name -->
+
     <p><strong>First Name: Madamsetty</strong></p>
     <p><em>Middle Name: Sai Venkat</em></p>
     <p><u>Last Name: Akshat</u></p>
 
-    <!-- Two separate paragraphs for ambition and hobbies -->
     <div class="content-div">
         <div>
             <p class="ambition">
@@ -147,24 +142,19 @@
             </p>
         </div>
     </div>
-
-    <!-- Collapsible section using <details> and <summary> tags for Ambition -->
     <details>
         <summary>Click to learn more about my ambition</summary>
         <p>My ambition is to become a software engineer, focused on working with new and emerging technologies such as Artificial Intelligence, Blockchain, and Machine Learning. I am excited about using my skills to solve real-world problems and create applications that can impact lives positively.</p>
     </details>
 
-    <!-- Collapsible section using <details> and <summary> tags for Hobbies -->
     <details>
         <summary>Click to learn more about my hobbies</summary>
         <p>I enjoy exploring new hobbies, particularly in the fields of technology and nature. I often participate in coding challenges, and I love to read about the latest advancements in tech. Outside of coding, I enjoy hiking, playing chess, and spending time with friends and family.</p>
     </details>
 
-    <!-- Equations -->
     <p>(a-b)<sup>2</sup> = a<sup>2</sup> - 2ab + b<sup>2</sup></p>
     <p>2H<sub>2</sub> + O<sub>2</sub> = 2H<sub>2</sub>O</p>
 
-    <!-- C program display -->
     <pre>
 #include <stdio.h>
 
@@ -175,19 +165,14 @@ int main() {
 }
     </pre>
 
-    <!-- Marquee for roll number -->
     <marquee>Roll Number: 23BCE1777</marquee>
 
-    <!-- Passport-sized image -->
     <img id="passport-img" src="passport.jpg" alt="Passport Photo">
 
-    <!-- Link to Greeting page -->
     <a href="greeting.html" class="greeting-link">Click here for the E-Greeting</a>
 
-    <!-- Acronym example -->
     <p><acronym title="HyperText Markup Language">HTML</acronym> is the standard markup language for creating web pages.</p>
 
-    <!-- Progress bar and meter -->
     <div>
         <div>
             <p>Progress Bar</p>
@@ -199,13 +184,10 @@ int main() {
         </div>
     </div>
 
-    <!-- Scroll link to the top -->
     <a href="#" onclick="window.scrollTo(0, 0);" id="scroll-link">Go to Top</a>
 
-    <!-- Mailto Link -->
     <p><a href="mailto:example@email.com">Send me an email</a></p>
 
-    <!-- Footer -->
     <footer>
         <p>Page designed by Akshat MSV</p>
     </footer>
