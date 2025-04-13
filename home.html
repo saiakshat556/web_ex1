@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my page – 23BCE1777</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('background.jpg'); /* Add your background image path here */
+            background-size: cover;
+            color: #0c0c0c;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: blue;
+            font-family: Verdana, Geneva, sans-serif;
+        }
+
+        /* Alphabet from A to F */
+        .alphabet {
+            display: inline-block;
+            margin: 5px;
+        }
+
+        .a { font-size: 16px; font-family: 'Courier New'; color: red; }
+        .b { font-size: 20px; font-family: 'Arial'; color: green; }
+        .c { font-size: 24px; font-family: 'Georgia'; color: purple; }
+        .d { font-size: 28px; font-family: 'Times New Roman'; color: orange; }
+        .e { font-size: 32px; font-family: 'Comic Sans MS'; color: brown; }
+        .f { font-size: 36px; font-family: 'Impact'; color: pink; }
+
+        /* Styling the paragraphs */
+        .ambition {
+            background-color: yellow;
+            color: black;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .hobbies {
+            font-style: italic;
+            font-weight: bold;
+            color: black;
+        }
+
+        /* C program display */
+        pre {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Marquee for roll number */
+        marquee {
+            font-size: 20px;
+            font-weight: bold;
+            color: red;
+            padding: 10px;
+        }
+
+        /* Image alignment */
+        #passport-img {
+            float: right;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 10px;
+        }
+
+        /* div for separate paragraphs */
+        .content-div {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .content-div p {
+            width: 45%;
+        }
+
+        /* Link animation */
+        #scroll-link {
+            position: fixed;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 18px;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            background-color: #000;
+            border-radius: 5px;
+        }
+
+        progress, meter {
+            width: 50%;
+            height: 20px;
+            margin: 10px 0;
+        }
+
+        acronym {
+            border-bottom: 1px dotted;
+            cursor: help;
+        }
+
+        /* Style for link to Greeting Page */
+        .greeting-link {
+            font-size: 18px;
+            color: #000;
+            text-decoration: none;
+            display: block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with name in blue using Verdana font -->
+    <h1>Akshat MSV</h1> <!-- Your Name -->
+
+    <!-- Alphabet from A to F -->
+    <div class="alphabet a">A</div>
+    <div class="alphabet b">B</div>
+    <div class="alphabet c">C</div>
+    <div class="alphabet d">D</div>
+    <div class="alphabet e">E</div>
+    <div class="alphabet f">F</div>
+
+    <!-- Name formatting: bold first name, italicized middle name, underlined last name -->
+    <p><strong>First Name: Madamsetty</strong></p>
+    <p><em>Middle Name: Sai Venkat</em></p>
+    <p><u>Last Name: Akshat</u></p>
+
+    <!-- Two separate paragraphs for ambition and hobbies -->
+    <div class="content-div">
+        <div>
+            <p class="ambition">
+                My ambition is to become a successful software engineer. I aspire to work with cutting-edge technologies and make significant contributions to the tech industry.
+            </p>
+        </div>
+        <div>
+            <p class="hobbies">
+                I enjoy reading books, coding, playing chess, and exploring new programming languages. I also like hiking and nature walks during my leisure time.
+            </p>
+        </div>
+    </div>
+
+    <!-- Collapsible section using <details> and <summary> tags for Ambition -->
+    <details>
+        <summary>Click to learn more about my ambition</summary>
+        <p>My ambition is to become a software engineer, focused on working with new and emerging technologies such as Artificial Intelligence, Blockchain, and Machine Learning. I am excited about using my skills to solve real-world problems and create applications that can impact lives positively.</p>
+    </details>
+
+    <!-- Collapsible section using <details> and <summary> tags for Hobbies -->
+    <details>
+        <summary>Click to learn more about my hobbies</summary>
+        <p>I enjoy exploring new hobbies, particularly in the fields of technology and nature. I often participate in coding challenges, and I love to read about the latest advancements in tech. Outside of coding, I enjoy hiking, playing chess, and spending time with friends and family.</p>
+    </details>
+
+    <!-- Equations -->
+    <p>(a-b)<sup>2</sup> = a<sup>2</sup> - 2ab + b<sup>2</sup></p>
+    <p>2H<sub>2</sub> + O<sub>2</sub> = 2H<sub>2</sub>O</p>
+
+    <!-- C program display -->
+    <pre>
+#include <stdio.h>
+
+int main() {
+    printf("Account Number: 23BCE1777\n");
+    printf("Balance: ₹5000\n");
+    return 0;
+}
+    </pre>
+
+    <!-- Marquee for roll number -->
+    <marquee>Roll Number: 23BCE1777</marquee>
+
+    <!-- Passport-sized image -->
+    <img id="passport-img" src="passport.jpg" alt="Passport Photo">
+
+    <!-- Link to Greeting page -->
+    <a href="greeting.html" class="greeting-link">Click here for the E-Greeting</a>
+
+    <!-- Acronym example -->
+    <p><acronym title="HyperText Markup Language">HTML</acronym> is the standard markup language for creating web pages.</p>
+
+    <!-- Progress bar and meter -->
+    <div>
+        <div>
+            <p>Progress Bar</p>
+            <progress value="70" max="100"></progress>
+        </div>
+        <div>
+            <p>Meter</p>
+            <meter value="0.7">70%</meter>
+        </div>
+    </div>
+
+    <!-- Scroll link to the top -->
+    <a href="#" onclick="window.scrollTo(0, 0);" id="scroll-link">Go to Top</a>
+
+    <!-- Mailto Link -->
+    <p><a href="mailto:example@email.com">Send me an email</a></p>
+
+    <!-- Footer -->
+    <footer>
+        <p>Page designed by Akshat MSV</p>
+    </footer>
+
+</body>
+</html>
